@@ -228,94 +228,50 @@ function Skills() {
 function Projects() {
     const project_list = [
         {
-            name: "UbuntuOS Portfolio",
-            date: "Apr 2021",
-            link: "https://github.com/vivek9patel/vivek9patel.github.io",
+            name: "Steve's Run",
+            date: "Aug 2023",
+            link: "https://play.google.com/store/apps/details?id=com.Sunny.Game",
             description: [
-                "Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js & tailwind CSS",
+                "2D platformer mobile game, 4.8/5 Star Rating on Play Store with many Positive reviews",
+                "4.8/5 Star Rating on Play Store with many Positive reviews",
+                "34,000+ App views with thousands of downloads."
             ],
-            domains: ["javascript", "next.js", "tailwindcss"]
+            domains: ["C#", "Unity3D", "Google Play Console", "App Deployment"]
         },
         {
-            name: "Chrome Extension React Bolierplate",
-            date: "Dec 2021",
-            link: "https://github.com/vivek9patel/chrome-extension-react-boilerplate",
+            name: "Meta-call",
+            date: "Apr 2023",
+            link: "https://meta-call.onrender.com/",
             description: [
-                "A boilerplate code to build a chrome extension with react and webpack",
+                "P2P Video calling application. 1st privacy centric video calling app with an integration to the Metaverse",
+                "1st privacy centric video calling app with an integration to the Metaverse"
             ],
-            domains: ["javascript", "chrome-extension"]
+            domains: ["javascript", "node.js", "express"]
+        },
+
+        {
+            name: "ENDLESS RUNNER WITH BODY TRACKING",
+            date: "Nov 2022",
+            link: "https://github.com/Sunny619/endless-runner-body-tracking",
+            description: [
+                "Application that converts your body movements into game inputs",
+                "Created 9 finite automata states for effective transition",
+                "Tracks 33 pose landmarks and converts them into in-game actions.",
+            ],
+            domains: ["C++", "OpenGL", "OpenCV", "Mediapipe" ]
         },
         {
-            name: "CodeConnect",
-            date: "Nov 2021",
-            link: "https://github.com/vivek9patel/CodeConnect-frontend",
-            description: [
-                "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
-            ],
-            domains: ["javascript", "tailwindcss"]
-        },
-        {
-            name: "Ad Free Spotify",
+            name: "GAMIFICATION OF DIGITAL EDUCATION ",
             date: "Jun 2021",
-            link: "https://github.com/vivek9patel/ad-free-spotify",
+            link: "https://github.com/Sunny619/DBMS-Game-Project",
             description: [
-                "Chrome extension to automatically mute/unmute Spotify tab when Advertisement starts and ends!",
+                "An approach towards unification of education and games",
+                "Won the #1 best mini project award, CMRIT.",
+                "Integrated 40% of university course into the application",
+                "70% of the users find it a fun and better way to learn than traditional learning.",
             ],
-            domains: ["javascript", "chrome-extension"]
+            domains: ["C#", "Unity3D","MySQL", "DBMS"]
         },
-        {
-            name: "economist.com Unlocked",
-            date: "Mar 2021",
-            link: "https://github.com/vivek9patel/economist.com-unlocked",
-            description: [
-                "A chrome extension to read Paid Articles for Free & with no Ads, no subscription, no memberships!",
-            ],
-            domains: ["javascript", "chrome-extension"]
-        },
-        {
-            name: "Flutter banking app",
-            date: "Jan 2021",
-            link: "https://github.com/vivek9patel/flutter-banking-app",
-            description: [
-                "A Flutter & Firebase project for creating transactions between different Users and displaying the history of transactions done by all.",
-            ],
-            domains: ["flutter", "firestore", "dart", "firebase auth"]
-        },
-        {
-            name: "CPU scheduling application",
-            date: "Dec 2020",
-            link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
-            description: [
-                "React Native Application to visualize the CPU Scheduling algorithms with different Processes and Animations with gannt chart.",
-            ],
-            domains: ["react-native", "javascript"]
-        },
-        {
-            name: "Meditech Healthcare WebApp",
-            date: "Nov 2020",
-            link: "https://github.com/vivek9patel/Meditech-Healthcare",
-            description: [
-                "Developed Web Application to predict and diagnose diseases from x-ray images.",
-            ],
-            domains: ["javascript", "html5", "sass", "firebase", "tensorflow"]
-        },
-        {
-            name: "Problem Recommendation System",
-            date: "Sep 2020",
-            link: "https://github.com/vivek9patel/Improve-Codeforces",
-            description: [
-                "Django web application to suggest practice problems from the areas in which the user struggles to get pass in code-forces.",
-            ],
-            domains: ["django", "python", "codeforces-api", "javascript"]
-        },
-        {
-            name: "Cleanliness Automation",
-            date: "Dec 2019",
-            link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
-            description: [
-                "Developed Web Applications to automate Garbage collection and extraction systems for SSIP hackathon",
-            ],
-        }
     ];
 
     const tag_colors = {
@@ -346,7 +302,7 @@ function Projects() {
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>
-            <iframe src="https://github.com/sponsors/vivek9patel/card" title="Sponsor vivek9patel" className='my-4 w-5/6 md:w-3/4' ></iframe>
+            
 
             {
                 project_list.map((project, index) => {
@@ -358,7 +314,7 @@ function Projects() {
                                 <div className="flex flex-wrap justify-between items-center">
                                     <div className='flex justify-center items-center'>
                                         <div className=" text-base md:text-lg mr-2">{project.name.toLowerCase()}</div>
-                                        <iframe src={`https://ghbtns.com/github-btn.html?user=vivek9patel&repo=${projectName}&type=star&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase()+"-star"}></iframe>
+                                        
                                     </div>
                                     <div className="text-gray-300 font-light text-sm">{project.date}</div>
                                 </div>
@@ -392,6 +348,6 @@ function Projects() {
 }
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/Vivek-Patel-Resume.pdf" title="Abhigyan resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="./files/Abhigyan_Resume_SDE.pdf" title="Abhigyan resume" frameBorder="0"></iframe>
     )
 }
