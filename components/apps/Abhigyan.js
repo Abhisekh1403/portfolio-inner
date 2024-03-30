@@ -119,10 +119,10 @@ function About() {
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student</span> currently pursuing Computer Science. I've completed my 6 month SWE intern at <u className=' cursor-pointer '> <a href="https://en.wikipedia.org/wiki/HackerRank" target={"_blank"}>HackerRank</a> </u>, and now I'm looking for full-time frontend engineer roles! ( Hit me up <a className='text-underline' href='mailto:vivek.p9737@gmail.com'><u>@vivek.p9737@gmail.com</u></a> :) )</li>
-                <li className=" mt-3 list-building"> I enjoy building awesome softwares that solve practical problems.</li>
-                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time reading books, playing minecraft or watching <a href="https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A" target="_blank" rel="noreferrer"> tom scott's videos.</a></li>
-                <li className=" mt-3 list-star"> And I also have interest in Deep Learning & Computer Vision!</li>
+                <li className=" list-pc">I'm a <span className=" font-medium">Software Engineer</span> currently working at Phonepe. </li>
+                <li className=" mt-3 list-building"> I love to code.</li>
+                <li className=" mt-3 list-time"> When I am not coding, I like to spend my time playing sports, playing video games or playing Chess.</li>
+                <li className=" mt-3 list-star">Always up for a challenge, love to solve complex problems.</li>
             </ul>
         </>
     )
@@ -140,27 +140,27 @@ function Education() {
             <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Arizona State University
+                    CMR INSTITUTE OF TECHNOLOGY
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2022 - 2024</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2019 - 2023</div>
                     <div className=" text-sm md:text-base">Computer Science</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">GPA &nbsp; 4.0/4.0</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">CGPA &nbsp; 8.83/10</div>
                 </li>
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Pandit Deendayal Energy University - PDEU
+                    KENDRIYA VIDYALAYA DRDO
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2018 - 2022</div>
-                    <div className=" text-sm md:text-base">Computer Engineering</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">CGPA &nbsp; 9.35/10</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2018 - 2019</div>
+                    <div className=" text-sm md:text-base">Class 12 CBSE-PCMC</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">Percentage &nbsp; 92.4%</div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Class 12<sup>th</sup> (GSEB)
+                    AIR FORCE SCHOOL
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2016 - 2018</div>
-                    <div className=" text-sm md:text-base">Maths, Physics, Chemistry</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">Percentile Rank &nbsp; 94.1%</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2016 - 2017</div>
+                    <div className=" text-sm md:text-base">Class 10 CBSE</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">CGPA &nbsp; 10/10</div>
                 </li>
             </ul>
         </>
