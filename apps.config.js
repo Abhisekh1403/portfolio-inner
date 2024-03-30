@@ -5,7 +5,7 @@ import { displaySettings } from './components/apps/settings';
 import { displayChrome } from './components/apps/chrome';
 import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
-import { displayAboutVivek } from './components/apps/vivek';
+import { displayAboutAbhigyan } from './components/apps/Abhigyan';
 import { displayTerminalCalc } from './components/apps/calc';
 
 const apps = [
@@ -18,23 +18,23 @@ const apps = [
         desktop_shortcut: true,
         screen: displayChrome,
     },
+    // {
+    //     id: "calc",
+    //     title: "Calc",
+    //     icon: './themes/Yaru/apps/calc.png',
+    //     disabled: false,
+    //     favourite: true,
+    //     desktop_shortcut: false,
+    //     screen: displayTerminalCalc,
+    // },
     {
-        id: "calc",
-        title: "Calc",
-        icon: './themes/Yaru/apps/calc.png',
-        disabled: false,
-        favourite: true,
-        desktop_shortcut: false,
-        screen: displayTerminalCalc,
-    },
-    {
-        id: "about-vivek",
-        title: "About Vivek",
+        id: "about-Abhigyan",
+        title: "About Abhigyan",
         icon: './themes/Yaru/system/user-home.png',
         disabled: false,
         favourite: true,
         desktop_shortcut: true,
-        screen: displayAboutVivek,
+        screen: displayAboutAbhigyan,
     },
     {
         id: "vscode",

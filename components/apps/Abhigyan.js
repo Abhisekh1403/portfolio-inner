@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga4';
 
-export class AboutVivek extends Component {
+export class AboutAbhigyan extends Component {
 
     constructor() {
         super();
@@ -74,9 +74,6 @@ export class AboutVivek extends Component {
                     <img className=" w-3 md:w-4" alt="vivek's resume" src="./themes/Yaru/status/download.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
                 </div>
-                <div className='my-0.5 w-28 md:w-full h-8 px-2 md:px-2.5 flex' >
-                    <iframe src="https://github.com/sponsors/vivek9patel/button" title="Sponsor vivek9patel" width={"100%"} height={"100%"} ></iframe>
-                </div>
             </>
         );
     }
@@ -103,22 +100,19 @@ export class AboutVivek extends Component {
     }
 }
 
-export default AboutVivek;
+export default AboutAbhigyan;
 
-export const displayAboutVivek = () => {
-    return <AboutVivek />;
+export const displayAboutAbhigyan = () => {
+    return <AboutAbhigyan />
 }
 
 
 function About() {
     return (
         <>
-            <div className="w-20 md:w-28 my-4 bg-white rounded-full">
-                <img className="w-full" src="./images/logos/bitmoji.png" alt="Abhigyan Logo" />
-            </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
-                <div>my name is <span className="font-bold">Abhigyan</span> ,</div>
-                <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">Frontend Engineer!</span></div>
+                <div>My name is <span className="font-bold">Abhigyan</span> ,</div>
+                <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">Software Engineer!</span></div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-0"></div>

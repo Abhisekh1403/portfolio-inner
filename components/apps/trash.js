@@ -6,11 +6,11 @@ export class Trash extends Component {
         super();
         this.trashItems = [
             {
-                name: "php",
-                icon: "./themes/filetypes/php.png"
+                name: "Unity",
+                icon: "./themes/Yaru/system/folder.png"
             },
             {
-                name: "Angular.js",
+                name: "React.js",
                 icon: "./themes/filetypes/js.png"
             },
             {
@@ -19,19 +19,19 @@ export class Trash extends Component {
             },
 
             {
-                name: "abandoned project",
+                name: "Steve's Run",
                 icon: "./themes/Yaru/system/folder.png"
             },
             {
-                name: "18BCP127 assignment name.zip",
+                name: "Abhigyan assignment name.zip",
                 icon: "./themes/filetypes/zip.png"
             },
             {
-                name: "project final",
+                name: "Meta call",
                 icon: "./themes/Yaru/system/folder.png"
             },
             {
-                name: "project ultra-final",
+                name: "Dashboard",
                 icon: "./themes/Yaru/system/folder.png"
             },
 
