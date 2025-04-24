@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga4';
 
-export class AboutAbhigyan extends Component {
+export class AboutAbhisekh extends Component {
 
     constructor() {
         super();
@@ -55,23 +55,23 @@ export class AboutAbhigyan extends Component {
         return (
             <>
                 <div id="about" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "about" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="about abhigyan" src="./themes/Yaru/status/about.svg" />
+                    <img className=" w-3 md:w-4" alt="about abhisekh" src="./themes/Yaru/status/about.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">About Me</span>
                 </div>
                 <div id="education" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "education" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="abhigyan' education" src="./themes/Yaru/status/education.svg" />
+                    <img className=" w-3 md:w-4" alt="abhisekh' education" src="./themes/Yaru/status/education.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Education</span>
                 </div>
                 <div id="skills" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "skills" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="abhigyan' skills" src="./themes/Yaru/status/skills.svg" />
+                    <img className=" w-3 md:w-4" alt="abhisekh' skills" src="./themes/Yaru/status/skills.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Skills</span>
                 </div>
                 <div id="projects" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "projects" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="abhigyan' projects" src="./themes/Yaru/status/projects.svg" />
+                    <img className=" w-3 md:w-4" alt="abhisekh' projects" src="./themes/Yaru/status/projects.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Projects</span>
                 </div>
                 <div id="resume" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "resume" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="abhigyan's resume" src="./themes/Yaru/status/download.svg" />
+                    <img className=" w-3 md:w-4" alt="abhisekh's resume" src="./themes/Yaru/status/download.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
                 </div>
             </>
@@ -100,10 +100,10 @@ export class AboutAbhigyan extends Component {
     }
 }
 
-export default AboutAbhigyan;
+export default AboutAbhisekh;
 
-export const displayAboutAbhigyan = () => {
-    return <AboutAbhigyan />
+export const displayAboutAbhisekh = () => {
+    return <AboutAbhisekh />
 }
 
 
@@ -111,7 +111,7 @@ function About() {
     return (
         <>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
-                <div>My name is <span className="font-bold">Abhigyan</span> ,</div>
+                <div>My name is <span className="font-bold">Abhisekh</span> ,</div>
                 <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">Software Engineer!</span></div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
@@ -119,10 +119,10 @@ function About() {
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a <span className=" font-medium">Software Engineer</span> currently working at Phonepe. </li>
+                <li className=" list-pc">I'm a <span className=" font-medium">Software Engineer</span>  </li>
                 <li className=" mt-3 list-building"> I love to code.</li>
-                <li className=" mt-3 list-time"> When I am not coding, I like to spend my time playing sports, playing video games or playing Chess.</li>
-                <li className=" mt-3 list-star">Always up for a challenge, love to solve complex problems.</li>
+                <li className=" mt-3 list-time"> When I am not coding, I like to spend my time playing sports, playing Chess, cooking or watching movies.</li>
+                <li className=" mt-3 list-star">Never hesitant to take up an initiative.</li>
             </ul>
         </>
     )
@@ -140,27 +140,27 @@ function Education() {
             <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                    CMR INSTITUTE OF TECHNOLOGY
+                    CAMBRIDGE INSTITUTE OF TECHNOLOGY
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2019 - 2023</div>
-                    <div className=" text-sm md:text-base">Computer Science</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">CGPA &nbsp; 8.83/10</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2020 - 2024</div>
+                    <div className=" text-sm md:text-base">Artificial Intelligence and Machine Learning</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">CGPA &nbsp; 7.9/10</div>
                 </li>
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                    KENDRIYA VIDYALAYA DRDO
+                    KENDRIYA VIDYALAYA ASC CENTRE
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2018 - 2019</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2019 - 2020</div>
                     <div className=" text-sm md:text-base">Class 12 CBSE-PCMC</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">Percentage &nbsp; 92.4%</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">Percentage &nbsp; 80.8%</div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                    AIR FORCE SCHOOL
+                    KENDRIYA VIDYALAYA ASC CENTRE
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2016 - 2017</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2017 - 2018</div>
                     <div className=" text-sm md:text-base">Class 10 CBSE</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">CGPA &nbsp; 10/10</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">Percentage &nbsp; 88.4%</div>
                 </li>
             </ul>
         </>
@@ -181,7 +181,7 @@ function Skills() {
                     I have worked with all major programming languauges and industry tools.
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">back-end development, game development, dev-ops</strong></div>
+                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">back-end development and Machine Learning Models like NLP and Deep Learning Models</strong></div>
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <div>Here are my most frequently used</div>
@@ -194,11 +194,11 @@ function Skills() {
             <div className="w-full md:w-10/12 flex  items-start font-bold text-center">
                 <div className="px-2 w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className="m-1" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white" alt="abhigyan c++" />
+                        <img className="m-1" src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white" alt="abhigyan c" />  
                         <img className="m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="abhigyan python" />
                         <img className="m-1" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="abhigyan javascript" />
-                        <a href="https://www.google.com/search?q=is+html+a+language%3F" target="_blank" rel="noreferrer"><img title="yes it's a language!" className="m-1" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat&logo=html5&logoColor=ffffff" alt="abhigyan HTML" /></a>
-                        <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff" alt="abhigyan git" className="m-1" />
+                        <img className="m-1" src="https://img.shields.io/badge/Deep%20Learning-3776AB?style=flat&logo=brain&logoColor=white" alt="abhigyan deep learning" />
+                        <img className="m-1" src="https://img.shields.io/badge/NLP-FFA500?style=flat&logo=chat-bubble&logoColor=white" alt="abhigyan nlp" />
                     </div>
                 </div>
 
@@ -335,6 +335,6 @@ function Projects() {
 }
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/Abhigyan_Resume_SDE.pdf" title="Abhigyan resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="./files/Abhisekh's_Resume.pdf" title="Abhigyan resume" frameBorder="0"></iframe>
     )
 }

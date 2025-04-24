@@ -5,7 +5,7 @@ import { displaySettings } from './components/apps/settings';
 import { displayChrome } from './components/apps/chrome';
 import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
-import { displayAboutAbhigyan } from './components/apps/Abhigyan';
+import { displayAboutAbhisekh } from './components/apps/Abhisekh';
 import { displayTerminalCalc } from './components/apps/calc';
 
 const apps = [
@@ -28,13 +28,13 @@ const apps = [
     //     screen: displayTerminalCalc,
     // },
     {
-        id: "about-Abhigyan",
-        title: "About Abhigyan",
+        id: "about-Abhisekh",
+        title: "About Abhisekh",
         icon: './themes/Yaru/system/user-home.png',
         disabled: false,
         favourite: true,
         desktop_shortcut: true,
-        screen: displayAboutAbhigyan,
+        screen: displayAboutAbhisekh,
     },
     {
         id: "vscode",
