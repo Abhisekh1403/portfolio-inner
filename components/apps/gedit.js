@@ -72,14 +72,14 @@ export class Gedit extends Component {
                     <span className="font-bold ml-2">Send a Message to Me</span>
                     <div className="flex">
                         {/* <div onClick={this.sendMessage} className="border border-black bg-black bg-opacity-50 px-3 py-0.5 my-1 mx-1 rounded hover:bg-opacity-80">Send</div> */}
-                        <a href ="mailto:abhigyan260902@gmail.com"  className="border border-black bg-black bg-opacity-50 px-3 py-0.5 my-1 mx-1 rounded hover:bg-opacity-80">Send</a>
+                        <a href ="mailto:abhisekhkumar1403@gmail.com"  className="border border-black bg-black bg-opacity-50 px-3 py-0.5 my-1 mx-1 rounded hover:bg-opacity-80">Send</a>
 
                     </div>
                 </div>
                 <div className="relative flex-grow flex flex-col bg-ub-gedit-dark font-normal windowMainScreen">
                     <div className="absolute left-0 top-0 h-full px-2 bg-ub-gedit-darker"></div>
                     <div className="relative">
-                        <input  id="sender-name" className=" w-full text-ubt-gedit-orange focus:bg-ub-gedit-light outline-none font-medium text-sm pl-6 py-0.5 bg-transparent" value="Email me: abhigyan260902@gmail.com" placeholder="My Email" spellCheck="false" autoComplete="off" type="text" readOnly />
+                        <input  id="sender-name" className=" w-full text-ubt-gedit-orange focus:bg-ub-gedit-light outline-none font-medium text-sm pl-6 py-0.5 bg-transparent" value="Email me: abhisekhkumar1403@gmail.com" placeholder="My Email" spellCheck="false" autoComplete="off" type="text" readOnly />
                         <span className="absolute left-1 top-1/2 transform -translate-y-1/2 font-bold light text-sm text-ubt-gedit-blue">1</span>
                     </div>
                 </div>

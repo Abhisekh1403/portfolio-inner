@@ -194,18 +194,18 @@ function Skills() {
             <div className="w-full md:w-10/12 flex  items-start font-bold text-center">
                 <div className="px-2 w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className="m-1" src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white" alt="abhigyan c" />  
-                        <img className="m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="abhigyan python" />
-                        <img className="m-1" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="abhigyan javascript" />
-                        <img className="m-1" src="https://img.shields.io/badge/Deep%20Learning-3776AB?style=flat&logo=brain&logoColor=white" alt="abhigyan deep learning" />
-                        <img className="m-1" src="https://img.shields.io/badge/NLP-FFA500?style=flat&logo=chat-bubble&logoColor=white" alt="abhigyan nlp" />
+                        <img className="m-1" src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white" alt="Abhishek c" />  
+                        <img className="m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="Abhishek python" />
+                        <img className="m-1" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="Abhishek javascript" />
+                        <img className="m-1" src="https://img.shields.io/badge/Deep%20Learning-3776AB?style=flat&logo=brain&logoColor=white" alt="Abhishek deep learning" />
+                        <img className="m-1" src="https://img.shields.io/badge/NLP-FFA500?style=flat&logo=chat-bubble&logoColor=white" alt="Abhishek nlp" />
                     </div>
                 </div>
 
             </div>
             <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list mt-4">
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <span> And of course,</span> <img className=" inline ml-1" src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff" alt="abhigyan linux" /> <span>!</span>
+                    <span> And of course,</span> <img className=" inline ml-1" src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff" alt="Abhishek linux" /> <span>!</span>
                 </li>
             </ul>
         </>
@@ -335,6 +335,6 @@ function Projects() {
 }
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/Abhisekh's_Resume.pdf" title="Abhigyan resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="./files/Abhisekh's_Resume.pdf" title="Abhishek resume" frameBorder="0"></iframe>
     )
 }

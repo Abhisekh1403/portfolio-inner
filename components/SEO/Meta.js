@@ -5,14 +5,14 @@ export default function Meta() {
     return (
         <Head>
            /* Primary Meta Tags */
-            <title>Abhigyan Portfolio - Computer Engineering Student</title>
+            <title>Abhishek Portfolio - Computer Engineering Student</title>
             <meta charSet="utf-8" />
-            <meta name="title" content="Abhigyan Portfolio - Computer Engineering Student" />
+            <meta name="title" content="Abhishek Portfolio - Computer Engineering Student" />
             <meta name="description"
-                content="Abhigyan's (abhigyan) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
-            <meta name="author" content="Abhigyan (abhigyan)" />
+                content="Abhishek's (Abhishek) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+            <meta name="author" content="Abhishek (Abhishek)" />
             <meta name="keywords"
-                content="abhigyan, abhigyan's portfolio, abhigyan linux, ubuntu portfolio, Abhigyan protfolio,Abhigyan computer, Abhigyan, abhigyan ubuntu, Abhigyan ubuntu portfolio" />
+                content="Abhishek, Abhishek's portfolio, Abhishek linux, ubuntu portfolio, Abhishek protfolio,Abhishek computer, Abhishek, Abhishek ubuntu, Abhishek ubuntu portfolio" />
             <meta name="robots" content="index, follow" />
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
             <meta name="language" content="English" />
@@ -22,25 +22,25 @@ export default function Meta() {
             /* Search Engine */
             <meta name="image" content="images/logos/fevicon.png" />
             /* Schema.org for Google */
-            <meta itemProp="name" content="Abhigyan Portfolio - Computer Engineering Student" />
+            <meta itemProp="name" content="Abhishek Portfolio - Computer Engineering Student" />
             <meta itemProp="description"
-                content="Abhigyan's (abhigyan) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+                content="Abhishek's (Abhishek) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta itemProp="image" content="images/logos/fevicon.png" />
             /* Twitter */
             <meta name="twitter:card" content="summary" />
-            <meta name="twitter:title" content="Abhigyan Portfolio - Computer Engineering Student" />
+            <meta name="twitter:title" content="Abhishek Portfolio - Computer Engineering Student" />
             <meta name="twitter:description"
-                content="Abhigyan's (abhigyan) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
-            <meta name="twitter:site" content="abhigyan" />
-            <meta name="twitter:creator" content="abhigyan" />
+                content="Abhishek's (Abhishek) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+            <meta name="twitter:site" content="Abhishek" />
+            <meta name="twitter:creator" content="Abhishek" />
             <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
             /* Open Graph general (Facebook, Pinterest & Google+) */
-            <meta name="og:title" content="Abhigyan Portfolio - Computer Engineering Student" />
+            <meta name="og:title" content="Abhishek Portfolio - Computer Engineering Student" />
             <meta name="og:description"
-                content="Abhigyan's (abhigyan) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+                content="Abhishek's (Abhishek) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta name="og:image" content="images/logos/logo_1200.png" />
-            <meta name="og:url" content="http://abhigyan.github.io/" />
-            <meta name="og:site_name" content="Abhigyan Personal Portfolio" />
+            <meta name="og:url" content="http://Abhishek.github.io/" />
+            <meta name="og:site_name" content="Abhishek Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
             <meta name="og:type" content="website" />
 
