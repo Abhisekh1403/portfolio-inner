@@ -226,7 +226,7 @@ function Projects() {
             domains: ["Python", "Pygame", "2D Game Development"]
         },
         {
-            name: "Meta-call",
+            name: "FluxCall",
             date: "Apr 2026",
             link: "https://github.com/Abhisekh1403/P2P_Video_Call.git",
             description: [
@@ -243,13 +243,13 @@ function Projects() {
             description: [
                 "OnCall is a small on-call scheduling and team management app for small teams.",
                 "It tracks assignment windows, team membership, and rotating primary/secondary coverage for different teams",
-                " The app exposes a Node/Express API backed by Cassandra and serves a lightweight browser UI from the client folder.",
+                "The app exposes a Node/Express API backed by Cassandra and serves a lightweight browser UI from the client folder.",
             ],
             domains: ["C++", "OpenGL", "OpenCV", "Mediapipe" ]
         },
         {
             name: "GAMIFICATION OF DIGITAL EDUCATION ",
-            date: "Jun 2021",
+            date: "Jun 2023",
             link: "https://github.com/Abhisekh1403/SQL.git",
             description: [
                 "An approach towards unification of education and games",
