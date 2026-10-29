@@ -215,20 +215,20 @@ function Skills() {
 function Projects() {
     const project_list = [
         {
-            name: "Steve's Run",
-            date: "Aug 2023",
-            link: "https://play.google.com/store/apps/details?id=com.Sunny.Game",
+            name: "Shuriken Game",
+            date: "Aug 2025",
+            link: "https://github.com/Abhisekh1403/Shuriken_game_1.git",
             description: [
-                "2D platformer mobile game, 4.8/5 Star Rating on Play Store with many Positive reviews",
-                "4.8/5 Star Rating on Play Store with many Positive reviews",
-                "34,000+ App views with thousands of downloads."
+                "Built an arcade game using Pygame, where players dodge obstacles with a flying shuriken.",
+                "Implemented progressive difficulty mechanics, collision detection with pipes and moving enemies.",
+                "Offers both single-player and two-player modes along with a scoring system to track player performance."
             ],
-            domains: ["C#", "Unity3D", "Google Play Console", "App Deployment"]
+            domains: ["Python", "Pygame", "2D Game Development"]
         },
         {
             name: "Meta-call",
             date: "Apr 2023",
-            link: "https://meta-call.onrender.com/",
+            link: "https://github.com/Abhisekh1403/P2P_Video_Call.git",
             description: [
                 "P2P Video calling application. 1st privacy centric video calling app with an integration to the Metaverse",
                 "1st privacy centric video calling app with an integration to the Metaverse"
@@ -250,7 +250,7 @@ function Projects() {
         {
             name: "GAMIFICATION OF DIGITAL EDUCATION ",
             date: "Jun 2021",
-            link: "https://github.com/Sunny619/DBMS-Game-Project",
+            link: "https://github.com/Abhisekh1403/SQL.git",
             description: [
                 "An approach towards unification of education and games",
                 "Won the #1 best mini project award, CMRIT.",
