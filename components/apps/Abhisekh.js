@@ -227,7 +227,7 @@ function Projects() {
         },
         {
             name: "Meta-call",
-            date: "Apr 2023",
+            date: "Apr 2026",
             link: "https://github.com/Abhisekh1403/P2P_Video_Call.git",
             description: [
                 "P2P Video calling application. 1st privacy centric video calling app with an integration to the Metaverse",
@@ -237,13 +237,13 @@ function Projects() {
         },
 
         {
-            name: "ENDLESS RUNNER WITH BODY TRACKING",
-            date: "Nov 2022",
-            link: "https://github.com/Sunny619/endless-runner-body-tracking",
+            name: "Meetings On Call",
+            date: "Nov 2026",
+            link: "https://github.com/Abhisekh1403/Oncall.git",
             description: [
-                "Application that converts your body movements into game inputs",
-                "Created 9 finite automata states for effective transition",
-                "Tracks 33 pose landmarks and converts them into in-game actions.",
+                "OnCall is a small on-call scheduling and team management app for small teams.",
+                "It tracks assignment windows, team membership, and rotating primary/secondary coverage for different teams",
+                " The app exposes a Node/Express API backed by Cassandra and serves a lightweight browser UI from the client folder.",
             ],
             domains: ["C++", "OpenGL", "OpenCV", "Mediapipe" ]
         },
